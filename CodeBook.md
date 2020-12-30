@@ -9,7 +9,7 @@ subject_test.txt\
 y_test.txt\
 X_test.txt\
 activity_labels.txt\
-features.txt\
+features.txt
 
 ### Transformation Steps
 8 data files are read into tables.
