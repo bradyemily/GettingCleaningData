@@ -25,7 +25,9 @@ Step 4: Appropriately label the data set with descriptive variable names. I subs
 Step 5: Create a tidy data set. I used the group_by and summarize_each functions in the dplyr package to take the average measurement for each subject/activity combination. This was then written into a text file.
 
 ### Data Dictionary
-In this data, t stands for the time domain and f stands for the frequency domain. Names that include X, Y, or Z indicate the axial direction of the mesurement. Acc is short for accelration. Mag is short for magnitude, and these measures were calculate using the Euclidean norm. Gyro is the measurement taken with the gyroscope. With regards to the type of measurement, "mean" is the average and "std" is the standard deviation. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.
+In this data, t stands for the time domain and f stands for the frequency domain. Names that include X, Y, or Z indicate the axial direction of the mesurement. Acc is short for accelration, taken by the accelerometer. Mag is short for magnitude, and these measures were calculate using the Euclidean norm. Gyro is the angualr velocity measurement taken with the gyroscope. With regards to the type of measurement, "mean" is the average and "std" is the standard deviation. The body linear acceleration and angular velocity were derived in time to obtain Jerk signals.
+
+Note that in the final tidy data set, these measurements are averaged across the subject/activity combination. So we have the average mean and the average standard deviation for each relative column.
 
 tBodyAccmeanX\
 tBodyAccmeanY\
