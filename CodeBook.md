@@ -29,8 +29,8 @@ In this data, t stands for the time domain and f stands for the frequency domain
 
 Note that in the final tidy data set, these measurements are averaged across the subject/activity combination. So we have the average mean and the average standard deviation for each relative column.
 
-Subject - the person being observed
-Activity - the physical activity occurring when the measurements were collected
+Subject - the person being observed\
+Activity - the physical activity occurring when the measurements were collected\
 tBodyAccmeanX\
 tBodyAccmeanY\
 tBodyAccmeanZtBodyAccstdX\
